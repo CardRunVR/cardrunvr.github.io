@@ -1,0 +1,119 @@
+@font-face {
+  font-family: CALIFB;
+  src: './assets/CALIFB.TTF';
+}
+@font-face {
+  font-family: PressStart2;
+  src: './assets/PressStart2P-Regular.ttf';
+}
+.navbar {
+  background-color: #e88a36;
+}
+.nav-item .nav-link {
+  font-family: PressStart2;
+  color: #412f79;
+}
+
+.Überschriften {
+  background-color: #e88a36;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: solid 3px #412f79;
+  border-radius: 10px;
+}
+
+.mainHeadline {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 1vh;
+  color: #412f79;
+  font-family: CALIFB;
+  margin-bottom: -5%;
+}
+.rightTack {
+  font-size: 60px;
+  text-align: left;
+  color: #412f79;
+  font-family: CALIFB;
+  margin-top: -1vh;
+}
+.left{
+  margin: 0px;
+}
+.info {
+  border: solid 2px #efb11d;
+  background-color: rgba(41, 2, 79, 0.466);
+  margin: 3%;
+  text-align: center;
+
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+.infoTextText {
+  color: white;
+  word-wrap: break-word;
+  margin-top: 1vh;
+}
+.infologo {
+  height: 35px;
+  margin-right: 10px;
+}
+.MainSide {
+  margin-top: 10vh;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  height: 60%;
+}
+.secondHeadline {
+  font-size: 25px;
+  font-family: CALIF;
+  color: white;
+  margin-top: 1vh;
+}
+.Coin {
+  height: 100%;
+}
+.bomb {
+  margin-top: 1%;
+  width: 70%;
+  height: 70%;
+}
+.infoText1 {
+  border: solid 2px #efb11d;
+  border-radius: 10px;
+}
+.info1 {
+  border: solid 2px #efb11d;
+  background-color: rgba(41, 2, 79, 0.466);
+  margin: 3%;
+  text-align: center;
+  height: 184px;
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+/* .MainRow{
+  height: 70vh;
+} */
+.card {
+  border: solid 2px #efb11d;
+  background-color: rgba(41, 2, 79, 0.466);
+  backdrop-filter: blur(4px);
+  margin-bottom: 10vh !important;
+  margin: auto;
+  border-radius: 10px;
+}
+.card-body {
+  color: white;
+}
+.WebXR {
+  border: solid 2px #efb11d;
+  border-radius: 10px;
+}
+
+body {
+  background-image: url('./Images/Backround.png');
+  background-attachment: fixed;
+  background-position: center;
+}

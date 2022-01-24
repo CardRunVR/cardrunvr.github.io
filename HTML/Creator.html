@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="icon" href="../Images/Logo2.png">
+    <title>CardRun Creator</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../Images/Logo.png" alt="Logo" height="70" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./Creator.html">Creator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./webxr.html">WebXR</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row row-cols-3 Überschriften">
+      <div class="col col-md-2 rightTack"><p class="left">A</p></div>
+      <div class="col col-md-8 mainHeadline"><p>Die Entwickler</p></div>
+      <div class="col col-md-2">
+        <model-viewer class="bomb" auto-rotate src="../assets/Bomb.glb" alt="Bomb"></model-viewer>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm info1">
+          <p class="secondHeadline">Jan Zeman</p>
+          <div class="infoText1">
+            <p class="infoTextText">
+              ♦️ Name: Jan ♦️<br />
+              ♦️ Alter: 20 ♦️ <br />
+              ♦️ Spiel mit Unity erstellen ♦️
+            </p>
+          </div>
+        </div>
+        <div class="col-sm info1">
+          <p class="secondHeadline">
+            <img class="pixart" src="../Images/Rafi.png" />
+            Raphael Pichlerbauer
+          </p>
+          <div class="infoText1">
+            <p class="infoTextText">
+              ♠️ Name: Rafi ♠️<br />
+              ♠️ Alter: 19 ♠️<br />
+              ♠️ Website erstellt ♠️
+            </p>
+          </div>
+        </div>
+        <div class="col-sm info1">
+          <p class="secondHeadline">
+            <img class="pixart" src="../Images/Richard.png" />
+            Richard Neumeyer
+          </p>
+          <div class="infoText1">
+            <p class="infoTextText">
+              ♣️ Name: Richi ♣️<br />
+              ♣️ Alter: 17 ♣️<br />
+              ♣️ Sound und design des Spieles ♣️
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-3 Überschriften">
+      <div class="col col col-md-2 rightTack"><p class="left">K</p></div>
+      <div class="col col-md-8 mainHeadline"><p>Tools</p></div>
+      <div class="col col col-md-2">
+        <model-viewer class="bomb" auto-rotate src="../assets/Bomb.glb" alt="COIN"></model-viewer>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm info">
+            <p class="secondHeadline"><img class="infologo" src="../Images/Ikonka-magicavoxel.png" />Magicavoxel</p>
+        </div>
+        <div class="col-sm info">
+            <p class="secondHeadline"><img class="infologo" src="../Images/Bootstrap_logo.svg.png" />Bootstrap 5</p>
+        </div>
+        <div class="col-sm info">
+            <p class="secondHeadline"><img class="infologo" src="../Images/unity-69.svg" />Unity</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+  </body>
+</html>
